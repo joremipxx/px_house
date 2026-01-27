@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-const img1Swimming = "https://www.figma.com/api/mcp/asset/2ee475e0-45c8-4344-a358-4cf8006b3f89"
+const img1Swimming = "/image/photo_7.jpg"
 
 export default function Activities() {
   const { t } = useTranslation()

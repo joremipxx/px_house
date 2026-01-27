@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next'
 
-const imgImgImgPrivateChef = "https://www.figma.com/api/mcp/asset/29798c24-4fb1-4371-83e1-73432841fa0a"
-const imgImgImgBoardingAssistance = "https://www.figma.com/api/mcp/asset/ed7ce63b-f232-4117-9872-b7f2620c7c93"
-const imgImgImgPersonalConcierge = "https://www.figma.com/api/mcp/asset/b2d4d7cb-cfc6-46c8-a436-2b1c5a07f400"
+const imgImgImgPrivateChef = "/image/photo_8.jpg"
+const imgImgImgBoardingAssistance = "/image/photo_9.jpg"
+const imgImgImgPersonalConcierge = "/image/photo_10.jpg"
 
 export default function Protocols() {
   const { t } = useTranslation()

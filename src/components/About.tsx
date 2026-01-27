@@ -1,11 +1,17 @@
 import { useTranslation } from 'react-i18next'
+import { useScrollReveal } from '../hooks/useScrollReveal'
 
-const img101 = "https://www.figma.com/api/mcp/asset/34cf50de-c8ae-48a0-81ce-dcb0bf182cbe"
+const img101 = "/image/hero2.png"
 
 export default function About() {
   const { t } = useTranslation()
+  const [ref, isVisible] = useScrollReveal(0.1)
+  
   return (
-    <section className="relative bg-paradox-bg py-20 md:py-32">
+    <section 
+      ref={ref}
+      className={`relative bg-paradox-bg py-20 md:py-32 section-reveal ${isVisible ? 'revealed' : ''}`}
+    >
       {/* Heading Section - Full Width */}
       <div className="w-full mb-12 md:mb-16 text-center px-4 md:px-8">
         <h2 className="font-['Anton',sans-serif] text-4xl md:text-6xl lg:text-[80px] leading-tight md:leading-[72px] text-paradox-black mb-6 md:mb-8 uppercase text-center">
@@ -36,7 +42,7 @@ export default function About() {
         <div className="w-full h-auto md:h-[600px] lg:h-[729px] overflow-hidden">
           <img 
             alt="Paradox House" 
-            className="w-full h-full object-cover" 
+            className="w-full h-full object-cover transition-transform duration-700 ease-out hover:scale-105" 
             src={img101} 
           />
         </div>

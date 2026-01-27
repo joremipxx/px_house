@@ -46,21 +46,21 @@ export default function Navigation() {
         <div className="flex items-center gap-3">
           <button
             onClick={() => changeLanguage('en')}
-            className={`font-['Inter',sans-serif] text-sm font-semibold uppercase tracking-wider transition-opacity ${
+            className={`font-['Inter',sans-serif] text-sm font-semibold uppercase tracking-wider transition-opacity duration-300 ${
               i18n.language === 'en' 
-                ? 'text-white opacity-100' 
-                : 'text-white/70 hover:opacity-100'
+                ? 'text-paradox-bg opacity-100' 
+                : 'text-paradox-bg/50 hover:opacity-70'
             }`}
           >
             EN
           </button>
-          <span className="text-white/40">|</span>
+          <span className="text-paradox-bg/30">|</span>
           <button
             onClick={() => changeLanguage('fr')}
-            className={`font-['Inter',sans-serif] text-sm font-semibold uppercase tracking-wider transition-opacity ${
+            className={`font-['Inter',sans-serif] text-sm font-semibold uppercase tracking-wider transition-opacity duration-300 ${
               i18n.language === 'fr' 
-                ? 'text-white opacity-100' 
-                : 'text-white/70 hover:opacity-100'
+                ? 'text-paradox-bg opacity-100' 
+                : 'text-paradox-bg/50 hover:opacity-70'
             }`}
           >
             FR

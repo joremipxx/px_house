@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next'
 
-const img31 = "https://www.figma.com/api/mcp/asset/f5bed58b-b8ee-461a-b7a1-32b2909c3644"
-const img51 = "https://www.figma.com/api/mcp/asset/2f31913e-13b9-42e7-9d77-027610cd2f87"
-const img11 = "https://www.figma.com/api/mcp/asset/fab8fbbd-bdfd-4994-a089-861d4d069e3a"
-const img61 = "https://www.figma.com/api/mcp/asset/f20940b9-5ec0-466a-98fa-9732bbc52a4f"
-const img12 = "https://www.figma.com/api/mcp/asset/48a5d65e-fd51-479e-98d7-93f494558f14"
-const img102 = "https://www.figma.com/api/mcp/asset/b0bc8e21-e394-46a1-8cb3-f72bb914ebcc"
+const img31 = "/image/photo_2.png"
+const img51 = "/image/photo_1.png"
+const img11 = "/image/photo_4.png"
+const img61 = "/image/photo_3.png"
+const img12 = "/image/photo_6.png"
+const img102 = "/image/photo_5.png"
 
 export default function Hotels() {
   const { t } = useTranslation()
