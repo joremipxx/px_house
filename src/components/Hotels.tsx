@@ -31,12 +31,6 @@ export default function Hotels() {
               <p className="font-['Clash_Grotesk',sans-serif] text-[22px] md:text-[26px] leading-relaxed text-paradox-dark tracking-tight max-w-lg">
                 {t('hotels.mainLivingDesc')}
               </p>
-              <a 
-                href="#" 
-                className="inline-block font-['Clash_Grotesk',sans-serif] font-semibold text-[22px] md:text-[26px] text-paradox-dark uppercase tracking-tight border-b-2 border-paradox-dark hover:opacity-70 transition-opacity"
-              >
-                {t('common.exploreRoom')}
-              </a>
               
               {/* Small Image */}
               <div className="mt-8 w-full max-w-md">
@@ -72,12 +66,6 @@ export default function Hotels() {
               <p className="font-['Clash_Grotesk',sans-serif] text-[22px] md:text-[26px] leading-relaxed text-paradox-dark tracking-tight max-w-lg">
                 {t('hotels.privateSanctuaryDesc')}
               </p>
-              <a 
-                href="#" 
-                className="inline-block font-['Clash_Grotesk',sans-serif] font-semibold text-[22px] md:text-[26px] text-paradox-dark uppercase tracking-tight border-b-2 border-paradox-dark hover:opacity-70 transition-opacity"
-              >
-                {t('common.exploreRoom')}
-              </a>
               
               {/* Small Image */}
               <div className="mt-8 w-full max-w-md">
@@ -113,12 +101,6 @@ export default function Hotels() {
               <p className="font-['Clash_Grotesk',sans-serif] text-[22px] md:text-[26px] leading-relaxed text-paradox-dark tracking-tight max-w-lg">
                 {t('hotels.rooftopDesc')}
               </p>
-              <a 
-                href="#" 
-                className="inline-block font-['Clash_Grotesk',sans-serif] font-semibold text-[22px] md:text-[26px] text-paradox-dark uppercase tracking-tight border-b-2 border-paradox-dark hover:opacity-70 transition-opacity"
-              >
-                {t('common.exploreRoom')}
-              </a>
               
               {/* Small Image */}
               <div className="mt-8 w-full max-w-md">

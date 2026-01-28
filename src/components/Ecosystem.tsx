@@ -113,15 +113,6 @@ export default function Ecosystem() {
                   </li>
                 </ul>
               </div>
-              
-              <div className="border-t border-paradox-bg/10 pt-8">
-                <a 
-                  href="#" 
-                  className="inline-block font-['Clash_Grotesk',sans-serif] font-semibold text-base text-paradox-bg uppercase tracking-wider hover:opacity-70 transition-opacity"
-                >
-                  {t('common.upgradeAccess')} →
-                </a>
-              </div>
             </div>
           </div>
 
