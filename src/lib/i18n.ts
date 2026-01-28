@@ -41,10 +41,10 @@ const enTranslations = {
     title: "LISBON AWAITS YOU",
     mainLivingTitle: "Main Living\nSpace",
     mainLivingDesc: "A sanctuary designed for deep work and focused creation. Natural light floods through expansive windows, creating an environment where ideas flow and transformation happens. Every detail curated for your journey of mastery.",
-    privateSanctuaryTitle: "Private\nSanctuary",
-    privateSanctuaryDesc: "Your personal retreat for rest and recovery. A space where protocols become practice. Eight Sleep syncs with Oura, red-light panels for cellular recovery, and every element designed to accelerate your transformation.",
-    rooftopTitle: "Rooftop\nTerrace",
-    rooftopDesc: "Where morning breathwork meets sunrise. A space for cold plunges under morning light and evening reflection. Overlooking Lisbon's sunlit hills, this is where your daily rituals come to life."
+    privateSanctuaryTitle: "Kitchen &\nDining",
+    privateSanctuaryDesc: "A culinary sanctuary where modern design meets functional elegance. The open kitchen features premium appliances and marble surfaces, flowing seamlessly into a spacious dining area. Gather around the elegant marble table for nourishing meals and meaningful conversations—a space designed for both creation and connection.",
+    rooftopTitle: "Private\nBedroom",
+    rooftopDesc: "Your personal sanctuary for rest and restoration. A thoughtfully designed space with elegant wardrobes, natural light, and serene ambiance. Every detail curated to ensure deep sleep and peaceful mornings—where your transformation journey finds its foundation."
   },
   activities: {
     title: "WHERE EVERYDAY IS DESIGNED FOR YOU THROUGH CUSTOM LOOPS",
@@ -169,10 +169,10 @@ const frTranslations = {
     title: "LISBONNE VOUS ATTEND",
     mainLivingTitle: "Espace de Vie\nPrincipal",
     mainLivingDesc: "Un sanctuaire conçu pour le travail profond et la création focalisée. La lumière naturelle inonde à travers de vastes fenêtres, créant un environnement où les idées circulent et la transformation se produit. Chaque détail est soigné pour votre parcours de maîtrise.",
-    privateSanctuaryTitle: "Sanctuaire\nPrivé",
-    privateSanctuaryDesc: "Votre retraite personnelle pour le repos et la récupération. Un espace où les protocoles deviennent pratique. Eight Sleep se synchronise avec Oura, panneaux de lumière rouge pour la récupération cellulaire, et chaque élément conçu pour accélérer votre transformation.",
-    rooftopTitle: "Terrasse\nsur le Toit",
-    rooftopDesc: "Là où la respiration matinale rencontre le lever du soleil. Un espace pour les bains froids sous la lumière du matin et la réflexion du soir. Surplombant les collines ensoleillées de Lisbonne, c'est là que vos rituels quotidiens prennent vie."
+    privateSanctuaryTitle: "Cuisine &\nSalle à Manger",
+    privateSanctuaryDesc: "Un sanctuaire culinaire où le design moderne rencontre l'élégance fonctionnelle. La cuisine ouverte dispose d'appareils haut de gamme et de surfaces en marbre, s'écoulant harmonieusement dans un espace de restauration spacieux. Rassemblez-vous autour de la table en marbre élégante pour des repas nourrissants et des conversations significatives—un espace conçu pour la création et la connexion.",
+    rooftopTitle: "Chambre\nPrivée",
+    rooftopDesc: "Votre sanctuaire personnel pour le repos et la restauration. Un espace soigneusement conçu avec des armoires élégantes, une lumière naturelle et une ambiance sereine. Chaque détail est soigné pour assurer un sommeil profond et des matins paisibles—où votre parcours de transformation trouve ses fondations."
   },
   activities: {
     title: "OÙ CHAQUE JOUR EST CONÇU POUR VOUS À TRAVERS DES BOUCLES PERSONNALISÉES",
