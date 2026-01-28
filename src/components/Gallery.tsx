@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import OptimizedImage from './OptimizedImage'
 
 // Generate all 31 gallery images in reverse order (31 down to 1)
 const generateGalleryImages = () => {
@@ -88,10 +89,10 @@ export default function Gallery() {
                 className="h-[535px] overflow-hidden cursor-pointer hover:opacity-80 transition-opacity"
                 onClick={() => openModal(imageIndex)}
               >
-                <img 
-                  alt={`Gallery ${31 - imageIndex}`} 
-                  className="w-full h-full object-cover" 
-                  src={galleryImages[imageIndex]} 
+                <OptimizedImage
+                  src={galleryImages[imageIndex]}
+                  alt={`Gallery ${31 - imageIndex}`}
+                  className="w-full h-full"
                 />
               </div>
             ))}

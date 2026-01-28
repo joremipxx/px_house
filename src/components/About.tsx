@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useScrollReveal } from '../hooks/useScrollReveal'
+import OptimizedImage from './OptimizedImage'
 
 const img101 = "/image/hero2.png"
 
@@ -40,10 +41,10 @@ export default function About() {
       {/* Image Section */}
       <div className="relative z-10 mt-12 md:mt-16">
         <div className="w-full h-auto md:h-[600px] lg:h-[729px] overflow-hidden">
-          <img 
-            alt="Paradox House" 
-            className="w-full h-full object-cover transition-transform duration-700 ease-out hover:scale-105" 
-            src={img101} 
+          <OptimizedImage
+            src={img101}
+            alt="Paradox House"
+            className="w-full h-full transition-transform duration-700 ease-out hover:scale-105"
           />
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useEffect, useState } from 'react'
+import OptimizedImage from './OptimizedImage'
 
 export default function Hero() {
   const { t } = useTranslation()
@@ -13,11 +14,12 @@ export default function Hero() {
     <section className="relative bg-paradox-dark h-screen overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 opacity-80">
-        <img 
-          alt="Lisbon" 
-          className="absolute h-full w-full object-cover transition-opacity duration-1000 ease-out"
-          style={{ opacity: isLoaded ? 1 : 0 }}
-          src="/image/hero1.png" 
+        <OptimizedImage
+          src="/image/hero1.png"
+          alt="Lisbon"
+          className="absolute h-full w-full"
+          priority={true}
+          onLoad={() => setIsLoaded(true)}
         />
         {/* Black gradient overlay for better text visibility */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/50" />

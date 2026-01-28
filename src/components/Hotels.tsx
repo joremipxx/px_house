@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import OptimizedImage from './OptimizedImage'
 
 const img31 = "/image/photo_2.png"
 const img51 = "/image/photo_1.png"
@@ -35,10 +36,10 @@ export default function Hotels() {
               {/* Small Image */}
               <div className="mt-8 w-full max-w-md">
                 <div className="aspect-[420/300] overflow-hidden rounded-sm">
-                  <img 
-                    alt="Living Space Detail" 
-                    className="w-full h-full object-cover" 
-                    src={img31} 
+                  <OptimizedImage
+                    src={img31}
+                    alt="Living Space Detail"
+                    className="w-full h-full"
                   />
                 </div>
               </div>
@@ -47,10 +48,10 @@ export default function Hotels() {
             {/* Large Image Column */}
             <div className="order-1 lg:order-2">
               <div className="aspect-[1146/764] overflow-hidden rounded-sm">
-                <img 
-                  alt="Main Living Space" 
-                  className="w-full h-full object-cover" 
-                  src={img51} 
+                <OptimizedImage
+                  src={img51}
+                  alt="Main Living Space"
+                  className="w-full h-full"
                 />
               </div>
             </div>
@@ -70,10 +71,10 @@ export default function Hotels() {
               {/* Small Image */}
               <div className="mt-8 w-full max-w-md">
                 <div className="aspect-[420/300] overflow-hidden rounded-sm">
-                  <img 
-                    alt="Sanctuary Detail" 
-                    className="w-full h-full object-cover" 
-                    src={img11} 
+                  <OptimizedImage
+                    src={img11}
+                    alt="Sanctuary Detail"
+                    className="w-full h-full"
                   />
                 </div>
               </div>
@@ -82,10 +83,10 @@ export default function Hotels() {
             {/* Large Image Column */}
             <div className="order-1">
               <div className="aspect-[1147/764] overflow-hidden rounded-sm">
-                <img 
-                  alt="Private Sanctuary" 
-                  className="w-full h-full object-cover" 
-                  src={img61} 
+                <OptimizedImage
+                  src={img61}
+                  alt="Private Sanctuary"
+                  className="w-full h-full"
                 />
               </div>
             </div>
@@ -105,10 +106,10 @@ export default function Hotels() {
               {/* Small Image */}
               <div className="mt-8 w-full max-w-md">
                 <div className="aspect-[420/300] overflow-hidden rounded-sm">
-                  <img 
-                    alt="Terrace Detail" 
-                    className="w-full h-full object-cover" 
-                    src={img12} 
+                  <OptimizedImage
+                    src={img12}
+                    alt="Terrace Detail"
+                    className="w-full h-full"
                   />
                 </div>
               </div>
@@ -117,10 +118,10 @@ export default function Hotels() {
             {/* Large Image Column */}
             <div className="order-1 lg:order-2">
               <div className="aspect-[900/763] overflow-hidden rounded-sm">
-                <img 
-                  alt="Rooftop Terrace" 
-                  className="w-full h-full object-cover" 
-                  src={img102} 
+                <OptimizedImage
+                  src={img102}
+                  alt="Rooftop Terrace"
+                  className="w-full h-full"
                 />
               </div>
             </div>
