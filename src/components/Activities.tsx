@@ -39,15 +39,9 @@ export default function Activities() {
             
             {/* Description */}
             <div className="mt-16 md:mt-20 pt-12 md:pt-16 border-t border-paradox-gray/20">
-              <p className="font-['Clash_Grotesk',sans-serif] text-[22px] md:text-[26px] leading-relaxed text-paradox-dark tracking-tight mb-8 max-w-lg">
+              <p className="font-['Clash_Grotesk',sans-serif] text-[22px] md:text-[26px] leading-relaxed text-paradox-dark tracking-tight max-w-lg">
                 {t('activities.description')}
               </p>
-              <a 
-                href="#" 
-                className="inline-block font-['Clash_Grotesk',sans-serif] font-semibold text-[22px] md:text-[26px] text-paradox-dark uppercase tracking-tight border-b-2 border-paradox-dark hover:opacity-70 transition-opacity"
-              >
-                {t('common.viewAllActivities')}
-              </a>
             </div>
           </div>
           
